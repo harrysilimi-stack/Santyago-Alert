@@ -1,2 +1,11 @@
-# Santyago-Alert
-Santyago Alert  مشروع تنبيهات وطوارئ مبني باستخدام Python.  فكرة المشروع  Santyago Alert هو نظام تنبيهات بسيط يسمح بإرسال تحديثات وتنبيهات للمشتركين عبر Telegram أو واجهة ويب.   ---  هيكل المشروع  Santyago-Alert/ │ ├── app.py ├── config.py ├── requirements "
+# Santyago Alert
+
+Simple emergency alert system using Python and Telegram.
+
+## Installation
+
+```bash
+pkg update -y
+pkg install git python -y
+pip install -r requirements.txt
+python app.py
